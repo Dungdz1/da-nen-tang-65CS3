@@ -34,12 +34,10 @@ const Login = ({ navigation }) => {
         <Text style={styles.forgotPassword}>forgot a password?</Text>
       </TouchableOpacity>
 
-      {/* Thêm dòng chữ "Create Account" và xử lý sự kiện */}
       <TouchableOpacity onPress={handleCreateAccountPress}>
         <Text style={styles.createAccount}>Create Account</Text>
       </TouchableOpacity>
 
-      {/* Đặt nút Login ở dưới cùng và chiếm 90% độ rộng */}
       <View style={styles.loginButtonContainer}>
         <Button
           title="Login"

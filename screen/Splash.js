@@ -4,7 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 
 export default class Splash extends Component {
   handleLoginPress = () => {
-    this.props.navigation.navigate("Login"); // Chuyển sang màn hình Login khi nút được nhấn
+    this.props.navigation.navigate("Login"); 
   };
 
   render() {
@@ -17,7 +17,6 @@ export default class Splash extends Component {
         <Text style={styles.title}>FOODU</Text>
         <Text style={styles.tt}>Đặt đồ theo sở thích của bạn</Text>
         
-        {/* Thêm nút và xử lý sự kiện */}
         <TouchableOpacity onPress={this.handleLoginPress}>
           <View style={styles.button}>
             <Text style={styles.buttonText}>Go to Login</Text>

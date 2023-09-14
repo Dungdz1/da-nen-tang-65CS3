@@ -1,8 +1,8 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import Splash from "./screen/Splash"; // Import màn hình Splash.js
-import Login from "./screen/Login"; // Import màn hình Login.js
+import Splash from "./screen/Splash"; 
+import Login from "./screen/Login"; 
 import Signup from "./screen/Sigup";
 import fPassWord from "./screen/fPassword";
 
@@ -15,7 +15,7 @@ const App = () => {
         <Stack.Screen
           name="Splash"
           component={Splash}
-          options={{ headerShown: false }} // Ẩn tiêu đề màn hình Splash
+          options={{ headerShown: false }} 
         />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Signup" component={Signup} />
